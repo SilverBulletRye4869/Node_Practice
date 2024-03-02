@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>足し算！</h1>
+    <hr>
+
+    <hr>
+    <form action="/" method="post">
+        <label for="name">a:</label>
+        <input type="text" id="a" name="a" value="<%= a %>"><br><br>
+        <label for="email">b:</label>
+        <input type="text" id="b" name="b" value="<%= b %>"><br><br>
+        <input type="submit" value="送信">
+    </form>
+    <%= calc_res %>
+</body>
+
+</html>
